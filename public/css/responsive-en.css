@@ -7,6 +7,14 @@
 /*Small, Med Desktops ,tablets and all mobile Sizes including (phablets) */
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
 /*Mobile Landscape to Portrait */
+@media (max-width: 479px) {
+  .as-or:before, .as-or:after {
+    width: 10rem;
+  }
+  .as-or:before {
+    left: -10.8rem;
+  }
+}
 /*Mobile  Portrait */
 /*Small, Med Desktops, tablets landscape To infinite */
 /*Tablet portrait to infinite */
