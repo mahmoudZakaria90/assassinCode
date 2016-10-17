@@ -1,0 +1,26 @@
+/*Custom*/
+.as
+	&-splash
+		display: flex
+		height: 100vh
+		align-items: center
+	&-or
+		+gvSize(4rem,4rem)
+		line-height: 3.6rem
+		margin: auto
+		border: 2px solid $border-color-default
+		border-radius: 50%
+		position: relative
+		&:before,&:after
+			content: ''
+			position: absolute
+			top: 50%
+			width: 20rem
+			border-bottom: 1px solid $border-color-default
+			-webkit-transform: translateY(-50%)
+			transform: translateY(-50%)
+		&:before
+			left: -20.8rem
+
+		&:after
+			left: 4.2rem
