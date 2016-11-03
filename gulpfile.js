@@ -9,23 +9,16 @@ var notificator = require('gulp-jshint-notify-reporter');
 
 //sass
 gulp.task('sass', function () {
-   sass('./src/sass/en/*.sass',{style:'expanded'})
+   sass('./src/sass/en/*.sass',{style:'compressed'})
     .on('error', sass.logError)
     .pipe(connect.reload())
     .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('sass-ar', function () {   
-   sass('./src/sass/ar/*.sass',{style:'expanded'})
-    .on('error', sass.logError)
-    .pipe(connect.reload())
-    .pipe(gulp.dest('./public/css'));
-});
 
 //watch 
 gulp.task('watch',function(){
 	gulp.watch('./src/sass/en/*.sass',['sass'])
- 	gulp.watch('./src/sass/ar/*.sass',['sass-ar'])
 	gulp.watch('./public/**/*.html',['html'])
 	gulp.watch('./src/js/script.js',['browserify'])
     gulp.watch('./src/js/**.js',['lint'])
