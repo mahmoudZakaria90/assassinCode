@@ -17,8 +17,7 @@ gulp.task('sass', function () {
 gulp.task('watch',function(){
 	gulp.watch('./src/sass/en/*.sass',['sass'])
 	gulp.watch('./public/**/*.html',['html'])
-	gulp.watch('./src/js/script.js',['browserify'])
-    gulp.watch('./src/js/**.js',['lint'])
+	
 })
 
 
