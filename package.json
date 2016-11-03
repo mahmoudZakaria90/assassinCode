@@ -31,8 +31,10 @@
     "gulp-jshint": "^2.0.1",
     "gulp-jshint-notify-reporter": "^1.0.2",
     "gulp-ruby-sass": "^2.1.0",
+    "gulp-uglify": "^2.0.0",
     "gulp-uglifycss": "^1.0.6",
     "jshint": "^2.9.3",
+    "pump": "^1.0.1",
     "vinyl-source-stream": "^1.1.0"
   }
 }
