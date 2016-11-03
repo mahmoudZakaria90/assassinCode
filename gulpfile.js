@@ -50,6 +50,7 @@ gulp.task('csso', function () {
         .pipe(gulp.dest('./public/css/'));
 });
 
+//js lint
 gulp.task('lint', function() {
   return gulp.src('./src/js/*.js')
     .pipe(jshint())
