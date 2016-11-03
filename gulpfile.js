@@ -63,9 +63,9 @@ gulp.task('lint', function() {
 //js uglify
 gulp.task('compress', function (cb) {
   pump([
-        gulp.src('public/js/script.js'),
+        gulp.src('./public/js/*.js'),
         uglify(),
-        gulp.dest('public/js/')
+        gulp.dest('./public/js/')
     ],
     cb
   );
