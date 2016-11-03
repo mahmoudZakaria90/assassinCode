@@ -27,9 +27,11 @@
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-connect": "^5.0.0",
+    "gulp-csso": "^2.0.0",
     "gulp-jshint": "^2.0.1",
     "gulp-jshint-notify-reporter": "^1.0.2",
     "gulp-ruby-sass": "^2.1.0",
+    "gulp-uglifycss": "^1.0.6",
     "jshint": "^2.9.3",
     "vinyl-source-stream": "^1.1.0"
   }
